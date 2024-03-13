@@ -14,10 +14,20 @@ public class CCuenta {
     private double saldo;
     private double tipoInterés;
     
+    /**
+     * clase constructor sin parametros para crear la cuenta
+     */
     public CCuenta()
     {
     }
 
+    /**
+     * 
+     * @param nom  nombre para la cuenta
+     * @param cue numero
+     * @param sal  de la cuenta
+     * @param tipo  tipo de cuenta
+     */
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
         nombre =nom;
@@ -81,11 +91,21 @@ public class CCuenta {
         this.tipoInterés = tipoInterés;
     }
 
+    /**
+     * 
+     * @return devuelve el saldo de la cuenta
+     */
+    
     public double estado()
     {
         return getSaldo();
     }
 
+    /**
+     * 
+     * @param cantidad  a ingresar
+     * @throws Exception   en caso de error
+     */
     public void ingresar(double cantidad) throws Exception
     {
         if (cantidad<0)
@@ -93,6 +113,11 @@ public class CCuenta {
         setSaldo(getSaldo() + cantidad);
     }
 
+    /**
+     * 
+     * @param cantidad  a retirar
+     * @throws Exception en caso de error
+     */
     public void retirar(double cantidad) throws Exception
     {
         if (cantidad <= 0)

@@ -10,6 +10,10 @@ package com.prog02.ccuentas;
  */
 public class Practica_ED04_repetida {
 
+    /**
+     * metodo principal
+     * @param args 
+     */
     public static void main(String[] args) {
        CCuenta cuenta_uno1;
 
@@ -20,6 +24,11 @@ public class Practica_ED04_repetida {
         System.out.println("linea cambiada");
     }
 
+    /**
+     * para realizar las operaciones de cuenta
+     * @param cuenta_uno1
+     * @param Cantidad 
+     */
     public static void operativa_cuenta(CCuenta cuenta_uno1, java.lang.Float Cantidad) {
         double saldoActual;
         saldoActual = cuenta_uno1.estado();
