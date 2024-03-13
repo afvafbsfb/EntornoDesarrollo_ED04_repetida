@@ -59,7 +59,7 @@ public class CCuentaTest {
         System.out.println("getNombre");
         CCuenta instance = new CCuenta();
         String expResult = "";
-        String result = instance.getNombre();
+        String result = instance.getNombreCuenta();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
@@ -73,7 +73,7 @@ public class CCuentaTest {
         System.out.println("setNombre");
         String nombre = "";
         CCuenta instance = new CCuenta();
-        instance.setNombre(nombre);
+        instance.setNombreCuenta(nombre);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
