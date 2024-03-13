@@ -9,7 +9,7 @@ package com.prog02.ccuentas;
  * @author Angel FV
  */
 public class CCuenta {
-    private String nombre;
+    private String nombreCuenta;
     private String cuenta;
     private double saldo;
     private double tipoInterés;
@@ -23,30 +23,30 @@ public class CCuenta {
 
     /**
      * 
-     * @param nom  nombre para la cuenta
+     * @param nom  nombreCuenta para la cuenta
      * @param cue numero
      * @param sal  de la cuenta
      * @param tipo  tipo de cuenta
      */
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
-        nombre =nom;
+        nombreCuenta =nom;
         cuenta=cue;
         saldo=sal;
     }
     
     /**
-     * @return the nombre
+     * @return the nombreCuenta
      */
-    public String getNombre() {
-        return nombre;
+    public String getNombreCuenta() {
+        return nombreCuenta;
     }
 
     /**
-     * @param nombre the nombre to set
+     * @param nombreCuenta the nombreCuenta to set
      */
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombreCuenta(String nombreCuenta) {
+        this.nombreCuenta = nombreCuenta;
     }
 
     /**
