@@ -18,7 +18,9 @@ public class Practica_ED04_repetida {
        CCuenta cuenta_uno1;
 
         cuenta_uno1 = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
-              
+        "hola".equals("hola");
+        
+        System.out.println("hola");     
         operativa_cuenta(cuenta_uno1, 4.02f);
         
         System.out.println("linea cambiada");
