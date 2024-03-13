@@ -36,7 +36,7 @@ public class CCuenta {
     }
     
     /**
-     * @return the nombreCuenta
+     * @return the java.lang.String
      */
     public String getNombreCuenta() {
         return nombreCuenta;
